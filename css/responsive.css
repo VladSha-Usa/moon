@@ -1,0 +1,551 @@
+@media(max-width: 1250px) {
+
+    .header-wrapper .header,
+    .footer-wrapper .footer,
+    .portfolio,
+    .clients ul,
+    main {
+        width: 100%;
+    }
+
+    body {
+        min-width: 100%;
+    }
+
+    .header,
+    .footer,
+    main,
+    .clients ul {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .examples_partfol {
+        width: 1129px;
+        height: 420px;
+    }
+
+}
+
+@media(max-width: 1175px) {
+    .occupation {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .examples_partfol {
+        width: 901px;
+        height: 323px;
+    }
+
+    .examples_partfol li {
+        width: 203px;
+        height: 147px;
+    }
+
+    .examples_partfol li a {
+        width: 203px;
+        height: 147px;
+    }
+
+    .navigation ul li a {
+        font-size: 13px;
+    }
+
+    .examples_partfol li a .exmpl {
+        height: 147px;
+    }
+
+    .examples_partfol li strong {
+        margin-bottom: 9px;
+    }
+}
+
+@media(max-width: 1030px) {
+    .intro-wrapper .intro a {
+        padding: 17px 79px 17px 80px;
+    }
+
+    .navigation ul li a {
+        font-size: 10px;
+    }
+
+    .about_us h2 {
+        font-size: 24px;
+    }
+
+    .about_us h2 span {
+        font-size: 12px;
+        word-spacing: 1px;
+    }
+
+    .random p {
+        font-size: 21px;
+    }
+
+    .random p+p+p {
+        font-size: 12px;
+        word-spacing: 1px;
+    }
+
+    .portfolio h4 {
+        margin-bottom: 65px;
+    }
+
+    .clients h5 {
+        font-size: 22px;
+    }
+
+    .clients h5 span {
+        font-size: 13px;
+    }
+
+    .contact_us legend {
+        font-size: 20px;
+    }
+
+    .contact_us p {
+        font-size: 14px;
+        margin-bottom: 56px;
+    }
+
+    .main-form {
+        height: 376px;
+        width: 748px;
+    }
+
+    .row .input-text {
+        font-size: 14px;
+        width: 356px;
+        height: 38px;
+    }
+
+    .subject {
+        font-size: 14px;
+        width: 747px;
+        height: 38px;
+    }
+
+    textarea {
+        font-size: 14px;
+        width: 747px;
+        height: 180px;
+    }
+
+    .submit {
+        padding: 15px 349px 13px 350px;
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 970px) {
+    .navigation {
+        width: 489px;
+    }
+
+    .about_us {
+        margin-bottom: 130px;
+    }
+
+    .about_us h2 {
+        margin-bottom: 90px;
+    }
+
+    .occupation .col h3 {
+        font-size: 13px;
+        margin-bottom: 25px;
+    }
+
+    .occupation .col h3 span {
+        font-size: 21px;
+        margin-top: -10px;
+        padding-top: 7px;
+        padding-right: 6px;
+        margin-right: 7px;
+    }
+
+    .occupation {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .occupation .art {
+        width: 241px;
+        margin-left: 0px;
+        align-self: flex-start;
+        margin-bottom: 30px;
+    }
+
+    .occupation .apps {
+        width: 241px;
+        margin-left: 0px;
+        align-self: center;
+        margin-bottom: 30px;
+    }
+
+    .occupation .photo {
+        width: 241px;
+        align-self: flex-end;
+    }
+
+    .portfolio {
+        height: 989px;
+    }
+
+    .examples_partfol {
+        width: 422px;
+        height: 637px;
+    }
+}
+
+@media(max-width: 780px) {
+    .slicknav_menu {
+        display: block;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .intro {
+        width: 576px;
+    }
+
+    .intro p+p {
+        font-size: 34px;
+        margin-left: 2px;
+        word-spacing: -2px;
+    }
+
+    .header {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-main {
+        margin-left: 0px;
+    }
+
+    .random {
+
+        width: 100%;
+    }
+
+    .main-form {
+        height: 376px;
+        width: 356px;
+        flex-direction: column;
+    }
+
+    .row .input-text {
+        width: 356px;
+        height: 38px;
+    }
+
+    .subject {
+        width: 356px;
+        height: 38px;
+    }
+
+    textarea {
+        width: 356px;
+        height: 180px;
+    }
+
+    .submit {
+        padding: 15px 156px 13px 155px;
+    }
+}
+
+@media(max-width: 630px) {
+    .intro {
+        width: 427px
+    }
+
+    .intro .logo {
+        width: 65px;
+        height: 64px;
+        background-size: 100%;
+    }
+
+    .intro p {
+        font-size: 12px;
+        word-spacing: 0px;
+        margin-top: -172px;
+    }
+
+    .intro p+p {
+        font-size: 24px;
+        margin-top: -19px;
+        margin-left: 0px;
+    }
+
+    .intro-wrapper .intro a {
+        padding: 13px 60px 13px 60px;
+    }
+
+    .intro-wrapper .intro a:after {
+        margin-left: -53px;
+        margin-top: 67px;
+    }
+
+    .random {
+
+        width: 100%;
+    }
+
+    .random p {
+        font-size: 17px;
+    }
+
+    .random p+p+p {
+        font-size: 10px;
+    }
+
+    .portfolio h4 {
+        font-size: 23px;
+    }
+
+    .portfolio h4 span {
+        font-size: 13px;
+    }
+
+    span .more {
+        font-size: 13px;
+    }
+
+    span .more:after {
+        margin-top: 39px;
+        margin-left: -118px;
+    }
+
+    .clients ul {
+        height: 200px;
+        justify-content: space-around;
+        width: 350px;
+        flex-wrap: wrap;
+    }
+
+    .clients h5 {
+        margin-top: 99px;
+        margin-bottom: 47px;
+    }
+
+    .footer p {
+        font-size: 9px;
+    }
+
+    .footer ul {
+        width: 137px;
+        margin-left: 0px;
+    }
+}
+
+@media(max-width: 490px) {
+    .intro {
+        width: 241px;
+        min-height: 332px;
+    }
+
+    .intro .logo {
+        width: 50px;
+        height: 50px;
+        background-size: 100%;
+        margin-left: 0px;
+    }
+
+    .intro p {
+        font-size: 7px;
+        margin-top: -172px;
+        margin-left: 0px;
+    }
+
+    .intro p+p {
+        font-size: 11px;
+        margin-top: -46px;
+        margin-left: 0px;
+    }
+
+    .intro-wrapper .intro a {
+        padding: 6px 38px 6px 39px;
+        font-size: 12px;
+        margin-top: -79px;
+        margin-left: 0px;
+    }
+
+    .intro-wrapper .intro a:after {
+        margin-left: -46px;
+        margin-top: 59px;
+    }
+
+    .about_us h2 {
+        margin-bottom: 90px;
+        font-size: 19px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .about_us h2 span {
+        font-size: 8px;
+        margin-left: 0px;
+        margin-top: 26px;
+    }
+
+    .occupation {
+        width: 300px;
+    }
+
+    .occupation .col {
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .occupation .col h3 {
+        font-size: 10px;
+        margin-bottom: 25px;
+        margin-top: 0px;
+    }
+
+    .occupation .col h3 span {
+        font-size: 13px;
+    }
+
+    .random-wrapper {
+        height: 450px;
+    }
+
+    .random {
+        width: 269px;
+        height: 65px;
+    }
+
+    .random p {
+        font-size: 9px;
+    }
+
+    .random p+p+p {
+        font-size: 5px;
+    }
+
+    .portfolio {
+        height: 668px;
+    }
+
+    .portfolio h4 {
+        height: 60px;
+        width: 204px;
+        font-size: 20px;
+        margin-bottom: 65px;
+    }
+
+    .portfolio h4 span {
+        font-size: 9px;
+    }
+
+    .examples_partfol {
+        width: 207px;
+        height: 347px;
+    }
+
+    .examples_partfol li {
+        width: 95px;
+        height: 74px;
+    }
+
+    .examples_partfol li a {
+        width: 96px;
+        height: 74px;
+    }
+
+    .examples_partfol li a .exmpl {
+        height: 74px;
+    }
+
+    .examples_partfol li strong {
+        margin-bottom: 2px;
+        font-size: 10px;
+    }
+
+    .examples_partfol li span {
+        font-size: 7px;
+    }
+
+    span .more {
+        font-size: 9px;
+    }
+
+    span .more:after {
+        margin-top: 32px;
+        margin-left: -77px;
+        height: 13px;
+        width: 26px;
+        background-size: 100%;
+    }
+
+    .clients h5 {
+        margin-top: 36px;
+        margin-bottom: 30px;
+        font-size: 19px;
+    }
+
+    .clients h5 span {
+        font-size: 8px;
+        margin-top: 16px;
+    }
+
+    .clients ul {
+        height: 331px;
+        width: 300px;
+        flex-direction: column;
+    }
+
+    .contact_us legend {
+        font-size: 19px;
+        margin-bottom: 22px;
+    }
+
+    .contact_us p {
+        font-size: 9px;
+        margin-bottom: 56px;
+    }
+
+    .main-form {
+        height: 376px;
+        width: 220px;
+    }
+
+    .row .input-text {
+        font-size: 11px;
+        width: 220px;
+        height: 38px;
+    }
+
+    .subject {
+        width: 220px;
+        height: 38px;
+        font-size: 11px;
+    }
+
+    textarea {
+        width: 220px;
+        height: 180px;
+        font-size: 11px;
+    }
+
+    .submit {
+        padding: 12px 96px 12px 97px;
+        font-size: 12px;
+    }
+
+    .footer p {
+        font-size: 4px;
+    }
+
+    .footer ul {
+        width: 112px;
+        margin-left: 0px;
+    }
+}
